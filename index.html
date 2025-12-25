@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вітрина авторських тортів</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">Авторська кондитерська</p>
+      <h1>Торти, що створені ділитися моментами</h1>
+      <p class="lead">Добірні інгредієнти, збалансована солодкість і текстури, що тануть у роті. Обирайте свій настрій — ми підкреслимо смак події.</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#cakes">Переглянути вітрину</a>
+        <a class="btn btn--ghost" href="#order">Зробити попереднє замовлення</a>
+      </div>
+      <ul class="hero__badges">
+        <li>100% вершкове масло</li>
+        <li>Без штучних барвників</li>
+        <li>Доставка по місту та самовивіз</li>
+      </ul>
+    </div>
+    <div class="hero__decor" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section id="cakes" class="section">
+      <div class="section__header">
+        <p class="eyebrow">Вибір тижня</p>
+        <h2>Класичні торти в сучасній подачі</h2>
+        <p class="section__subtitle">Рецепти, що об'єднують ностальгію та нові акценти: легкі креми, хрусткі прошарки та ягідні нотки для балансу.</p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card__top">
+            <p class="tag">Легенда смаку</p>
+            <h3>Наполеон</h3>
+            <p class="card__desc">Хрусткі листкові коржі на вершковому маслі, заварний крем з ваніллю та щедра витримка для ідеальної ніжності.</p>
+          </div>
+          <ul class="card__list">
+            <li>18 см (8 порцій) — 850 грн</li>
+            <li>22 см (12 порцій) — 1150 грн</li>
+            <li>Декор: карамельна крихта, пелюстки мигдалю</li>
+          </ul>
+          <button class="btn btn--full">Замовити «Наполеон»</button>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <p class="tag">Зимовий настрій</p>
+            <h3>Дрова під снігом</h3>
+            <p class="card__desc">Рулетні бісквіти з какао, вишневий конфі та ніжний сметанковий крем. Легка солодкість та природний ягідний акцент.</p>
+          </div>
+          <ul class="card__list">
+            <li>20 см (10 порцій) — 980 грн</li>
+            <li>26 см (14 порцій) — 1350 грн</li>
+            <li>Декор: вафельна крихта, трюфелі з какао</li>
+          </ul>
+          <button class="btn btn--full">Замовити «Дрова під снігом»</button>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <p class="tag">Для вечірки</p>
+            <h3>П'яна вишня</h3>
+            <p class="card__desc">Шоколадні бісквіти, вишні, настояні на лікері, і легкий мус із темного шоколаду. Глибокий смак та яскрава подача.</p>
+          </div>
+          <ul class="card__list">
+            <li>18 см (8 порцій) — 920 грн</li>
+            <li>24 см (14 порцій) — 1420 грн</li>
+            <li>Декор: глясе з шоколаду, свіжі вишні</li>
+          </ul>
+          <button class="btn btn--full">Замовити «П'яну вишню»</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--highlight">
+      <div class="section__header">
+        <p class="eyebrow">Як ми працюємо</p>
+        <h2>Деталі для ідеального десерту</h2>
+        <p class="section__subtitle">Ми підлаштуємо декор і насиченість крему під ваш формат: сімейне свято, корпоратив чи камерне побачення.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__number">1</div>
+          <div>
+            <h3>Консультація</h3>
+            <p>Обговорюємо смак, алергени та порційність. Радимо поєднання кремів і ягоди в сезон.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">2</div>
+          <div>
+            <h3>Тестова дегустація</h3>
+            <p>Надсилаємо міні-набір або запрошуємо до майстерні, щоб ви обрали ідеальний баланс.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number">3</div>
+          <div>
+            <h3>Доставка та сервіс</h3>
+            <p>Охолоджений транспорт, фірмове пакування та інструкції зі зберігання, щоб торт приїхав у формі.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="order" class="section section--cta">
+      <div class="cta">
+        <div>
+          <p class="eyebrow">Замовлення</p>
+          <h2>Розкажіть про подію — підберемо торт під ваш настрій</h2>
+          <p class="section__subtitle">Напишіть у зручний месенджер або залиште номер: ми відповімо протягом 15 хвилин у робочий час.</p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn btn--primary" href="tel:+380987654321">+38 (098) 765-43-21</a>
+          <a class="btn btn--ghost" href="mailto:hello@cakes.ua">hello@cakes.ua</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Авторська кондитерська. Солодкі акценти для важливих моментів.</p>
+    <p class="footer__note">Рецепти перевірені часом: «Наполеон», «Дрова під снігом» та «П'яна вишня» у нашій фірмовій інтерпретації.</p>
+  </footer>
+</body>
+</html>
